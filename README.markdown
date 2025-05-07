@@ -175,7 +175,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 ---
 
 ## 📧 Contact
-For questions or issues, please open an issue on the [GitHub Issues page](https://github.com/your-username/stock-prediction-app/issues) or contact the repository owner at `your-email@example.com`.
+For questions or issues, please open an issue on the [https://github.com/DarkDetonator/Stock_Market_Recommendation/issues) or contact the repository owner at `JosephJaison629@gmail.com`.
 
 ---
 
