@@ -1,8 +1,11 @@
 # Stock Prediction Application
 
-![Project Logo](path/to/logo.png)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/678ef3df-5803-46ec-8ada-fbeac0eb1a09" alt="Screenshot 2025-05-07 182238" width="600"/>
+</p>
 
-## 📋 Overview
+
+##  Overview
 This repository hosts a Flask-based web application for stock prediction, leveraging the **XGBoost** machine learning model. The project encompasses:
 
 - Data extraction from *NSE* and *Moneycontrol*
@@ -12,9 +15,13 @@ This repository hosts a Flask-based web application for stock prediction, levera
 
 It provides stock recommendations, growth scores, and financial calculations for companies, including those in the **Nifty 50** index.
 
----
+![68747470733a2f2f692e696d6775722e636f6d2f77617856496d762e706e67](https://github.com/user-attachments/assets/9b8974ab-4aa6-41f6-998c-5021ae4499d3)
 
-## 📂 Project Structure
+
+##  Project Structure
+- **`web_Scraping/`**: Scripts for data extraction.  
+  - `mony_contol.py`: Scrapes data from Moneycontrol.  
+  - `nse_extraction.py`: Scrapes data from NSE. 
 - **`generatingSyntheticData/`**: Scripts for data extraction and generation.  
   - `insert_into_db.py`: Inserts data into the database.  
   - `synthetic_data.py`: Generates synthetic data when real data is insufficient.  
@@ -26,14 +33,11 @@ It provides stock recommendations, growth scores, and financial calculations for
   - `model.py`: Retrieves company data and stock details.  
   - `nifty50.py`: Fetches names of Nifty 50 companies.  
   - `stock_predictor.py`: XGBoost model for predictions, growth scores, and recommendations.  
-- **`web_Scraping/`**: Scripts for data extraction.  
-  - `mony_contol.py`: Scrapes data from Moneycontrol.  
-  - `nse_extraction.py`: Scrapes data from NSE.  
 - **`requirements.txt`**: Lists required Python packages.  
 
----
+![68747470733a2f2f692e696d6775722e636f6d2f77617856496d762e706e67](https://github.com/user-attachments/assets/9b8974ab-4aa6-41f6-998c-5021ae4499d3)
 
-## 🛠️ Prerequisites
+## Prerequisites
 Before starting, ensure you have the following:
 
 - **Python 3.8+**  
@@ -42,7 +46,7 @@ Before starting, ensure you have the following:
 
 ---
 
-## 🚀 Installation
+## Installation
 
 Follow these steps to set up the project:
 
@@ -50,7 +54,7 @@ Follow these steps to set up the project:
    Run the following commands to clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/stock-prediction-app.git
+   git clone = https://github.com/DarkDetonator/Stock_Market_Recommendation.git
    cd stock-prediction-app
    ```
 
@@ -72,7 +76,7 @@ Follow these steps to set up the project:
    Install the required packages listed in `requirements.txt`:
 
    ```bash
-   pip install -r requirements.txt
+   pip install pip install -r requirements.txt
    ```
 
 4. **Configure the Database**  
@@ -81,7 +85,7 @@ Follow these steps to set up the project:
 
 ---
 
-## 📖 Usage
+##  Usage
 
 ### 1. Start the Login Server
 > **Note**: The login server must be started first as it is interconnected with the main application.
@@ -143,7 +147,7 @@ python XGBoostModel.py
 
 ---
 
-## ✨ Features
+##  Features
 - **Data Extraction**: Scrapes real-time stock data from *NSE* and *Moneycontrol*.  
 - **Synthetic Data Generation**: Generates synthetic data when real data is insufficient.  
 - **Stock Prediction**: Uses `XGBoost` to predict stock trends and calculate growth scores.  
@@ -153,7 +157,7 @@ python XGBoostModel.py
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 Contributions are welcome! Here’s how you can contribute:
 
 1. Fork the repository.
@@ -165,7 +169,7 @@ Ensure your code adheres to [PEP 8](https://www.python.org/dev/peps/pep-0008/) g
 
 ---
 
-## 📜 License
+##  License
 This project is licensed under the MIT License. See the `LICENSE` file for details.
 
 ---
@@ -175,5 +179,3 @@ For questions or issues, please open an issue on the [GitHub Issues page](https:
 
 ---
 
-## ⚠️ Note on Viewing Code Blocks
-The code sections in this README are written using Markdown fenced code blocks with triple backticks and the `bash` language identifier (e.g., ```bash ... ```). These blocks will render with syntax highlighting, a distinct background, and a copy button when viewed on GitHub. If you’re not seeing the code blocks highlighted (e.g., in a chat interface or a non-GitHub Markdown renderer), save this file as `README.md` and view it directly on GitHub’s website to see the proper formatting.
