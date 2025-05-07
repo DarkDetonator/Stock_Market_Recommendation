@@ -176,4 +176,4 @@ For questions or issues, please open an issue on the [GitHub Issues page](https:
 ---
 
 ## ⚠️ Note on Viewing Code Blocks
-The code sections in this README are written using Markdown fenced code blocks, which start and end with triple backticks and specify the language (e.g., ```bash ... ```). These blocks will render with syntax highlighting, a distinct background, and a copy button when viewed on GitHub. If you’re not seeing the code blocks highlighted (e.g., in a chat interface or a non-GitHub Markdown renderer), view the README directly on GitHub’s website to see the proper formatting.
+The code sections in this README are written using Markdown fenced code blocks with triple backticks and the `bash` language identifier (e.g., ```bash ... ```). These blocks will render with syntax highlighting, a distinct background, and a copy button when viewed on GitHub. If you’re not seeing the code blocks highlighted (e.g., in a chat interface or a non-GitHub Markdown renderer), save this file as `README.md` and view it directly on GitHub’s website to see the proper formatting.
